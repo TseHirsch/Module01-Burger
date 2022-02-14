@@ -135,6 +135,71 @@ header {
     max-width: 320px;
     margin: 0 auto;
 }
+.baner {
+    margin-top: 20px;
+}
+.container {
+    max-width: 1180px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
 .banner-box {
-    background-image: url();
+    background-image: url(../images/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    padding: 89px 100px 120px;
+    margin-bottom: 100px;
+    color: #FFFFFF;
+}
+.banner-title span{
+    display: block;
+    max-width: 95px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #fff;
+    padding: 5px 0;
+    background-color: #F37335;
+    border-radius: 14px;
+    text-align: center;
+    margin-bottom: -8px;
+    margin-top: 5px;
+}
+.banner-title {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 60px;
+    font-weight: 900;
+    color: #fff;
+    line-height: 1.6;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.banner-text {
+    font-family: 'Open Sans', sans-serif;
+    max-width: 353px;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 1.6;
+    color: #FAF9F9;
+    margin-bottom: 35px;
+    margin-top: 0px;
+}
+.banner-link {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;
+    color: #1E2F40;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: left;
+    background: #FBB731;
+    border-radius: 5px;
+    border: 1px solid #FBB731;
+    padding: 19px 10px;
+    position: absolute;
+    top: 67.5%;
+    left: 26%;
 }
