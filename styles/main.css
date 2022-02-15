@@ -135,52 +135,37 @@ header {
     max-width: 320px;
     margin: 0 auto;
 }
-.baner {
-    margin-top: 20px;
-}
-.container {
-    max-width: 1180px;
-    margin: 0 auto;
-    padding-left: 15px;
-    padding-right: 15px;
-}
 .banner-box {
     background-image: url(../images/banner.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
-    padding: 89px 100px 120px;
+    padding: 100px 100px 120px;
     margin-bottom: 100px;
-    color: #FFFFFF;
 }
 .banner-title span{
-    display: block;
-    max-width: 95px;
+    font-size: 14px;
     font-family: 'Open Sans', sans-serif;
     font-weight: 600;
-    font-size: 14px;
     text-transform: uppercase;
-    color: #fff;
-    padding: 5px 0;
     background-color: #F37335;
     border-radius: 14px;
+    padding: 5px 0;
+    display: block;
+    max-width: 96px;
     text-align: center;
-    margin-bottom: -8px;
-    margin-top: 5px;
+    margin-bottom: 9px;
 }
 .banner-title {
-    font-family: 'Nunito Sans', sans-serif;
     font-size: 60px;
     font-weight: 900;
-    color: #fff;
-    line-height: 1.6;
+    color: #FFFFFF;
     margin-top: 0;
-    margin-bottom: 0;
+    margin-bottom: 12px;
 }
 .banner-text {
     font-family: 'Open Sans', sans-serif;
     max-width: 353px;
-    font-weight: 400;
     font-size: 15px;
     line-height: 1.6;
     color: #FAF9F9;
@@ -188,18 +173,37 @@ header {
     margin-top: 0px;
 }
 .banner-link {
-    font-weight: 700;
     font-size: 14px;
-    line-height: 18px;
     color: #1E2F40;
     text-decoration: none;
     text-transform: uppercase;
-    text-align: left;
     background: #FBB731;
-    border-radius: 5px;
-    border: 1px solid #FBB731;
-    padding: 19px 10px;
-    position: absolute;
-    top: 67.5%;
-    left: 26%;
+    border-radius: 5px; 
+    padding: 20px 27px;
+    margin-top: 0%;
+}
+.menu-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.menu-title {
+    font-size: 44px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #1B2A49;
+    margin: 0;
+}
+.menu-select {
+    border: 1px solid #DEDEDE;
+    padding: 13px 30px;
+    border-radius: 22px;
+    color: #443737;
+    font-size: 15px;
+    appearance: none;
+    flex-basis: 279px;
+    background-image: url(../images/arrow.svg);
+    background-size: 12.79px 7.75px;
+    background-repeat: no-repeat;
+    background-position: 89% center;
 }
